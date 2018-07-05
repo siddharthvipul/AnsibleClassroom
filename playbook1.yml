@@ -1,0 +1,13 @@
+---
+# see here: https://docs.ansible.com/ansible/latest/modules/dnf_module.html
+
+- hosts: 127.0.0.1
+  tasks:
+  - name: installing gedit
+    dnf:
+      name: gedit
+      state: present
+      #state: latest
+      #state: removed
+
+...
