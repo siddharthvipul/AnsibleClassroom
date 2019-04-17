@@ -8,7 +8,7 @@ class Octocat
 
   def display
     breed = @breeds.join("-")
-
+    #hello
     puts "I am of #{breed} breed, and my name is #{@name}."
   end
 end
